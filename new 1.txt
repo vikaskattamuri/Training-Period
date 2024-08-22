@@ -1,0 +1,5 @@
+/*java.awt(Abstract window toolkit) is used to work with the graphical containers and components
+java.lang is the default package for every program
+java.sql(to communicate with the database)
+java.net(network)
+java.util(set list ,array,linked list,map)*/
