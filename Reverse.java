@@ -1,18 +1,24 @@
 import java.util.Scanner;
-class Reverse
-{
-public static void main(String args[])
-{
-System.out.println("enter the number");
-Scanner sc=new Scanner(System.in);
-int n=sc.nextInt();
-int rem,rev=0;
-while(n!=0)
-{
-rem=n%10;
-rev=rev*10+rem;
-n=n/10;
-}
-System.out.println(rev);
-}
+
+public class Reverse {
+	
+	public static void main(String args[]) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int number=sc.nextInt();
+		
+		int remainder;
+		int reverse=0;
+		while(number!=0) {
+			
+		remainder=number%10;
+		reverse=reverse*10+remainder;
+		number=number/10;
+		}
+		System.out.println("Reverse of "+number+"is "+reverse);
+		 
+		
+	}
+
 }
